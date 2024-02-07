@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TwoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/frag_two"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:src="@raw/client_gif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="bottom|center"
+        android:textSize ="30dp"
+        android:text="화면 공유한 기기 ip 주소 입력\n
+            화면 공유 시청"
+        android:textStyle="bold"/>
+
+
+
+</FrameLayout>

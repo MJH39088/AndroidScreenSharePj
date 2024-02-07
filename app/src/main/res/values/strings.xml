@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">화면공유</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_but_shar">공유하기</string>
+    <string name="app_but_rec">매개 변수 설정</string>
+
+    <string name="title_activity_watch_contect">WatchContect</string>
+
+    <string name="app_but_share">공유하기</string>
+    <string name="app_but_start">시작하기</string>
+    <string name="app_but_watch">시청하기</string>
+
+    <string name="app_but_stop">클릭하여 공유 중지</string>
+    <string name="app_but_del">알람 삭제</string>
+    <string name="app_but_save_setting">설정 저장</string>
+
+    <string name="app_input_width">비디오 너비</string>
+    <string name="app_input_height">비디오 높이</string>
+    <string name="app_input_bytereat">비디오 비트 속도(바이트)</string>
+    <string name="app_input_fps">비디오 프레임 속도</string>
+    <string name="app_input_numchannle">오디오 채널 수</string>
+    <string name="app_input_simplerate">비트 속도</string>
+    <string name="app_input_byterate">부호화율</string>
+    
+    <string name="app_input_address">연결할 IP주소를 입력하세요</string>
+
+    <string name="app_but_ok">확인</string>
+    <string name="app_but_cancle">취소</string>
+
+    <string name="app_back_exit">앱을 종료하려면 한번 더 누르세요！</string>
+
+    <string name="app_title_running">실행 중</string>
+    <string name="app_title_stopped">실행중지</string>
+
+    <string name="error_save">저장 오류</string>
+    <string name="error_channel_count">채널 설정 오류</string>
+    <string name="delete_notification">알람 삭제</string>
+
+    <string name="disconnected">연결 실패</string>
+    <string name="disconnect">와이파이 연결 없음</string>
+
+    <string name="title_input_ipaddr">연결 주소를 입력하세요</string>
+    <string name="but_ok">확인</string>
+    <string name="but_cancle">취소</string>
+
+    <string name="server_error_start">서비스 시작 실패</string>
+
+    <string name="error">오류</string>
+    <string name="app_server_end">서버가 종료</string>
+</resources>
