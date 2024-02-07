@@ -2,7 +2,7 @@ package com.sc.lesa.mediashar.jlib.util;
 
 public class CRC {
     /**
-     * 计算CRC16校验码
+     * CRC16 검사 코드 계산
      *
      * @param bytes
      * @return

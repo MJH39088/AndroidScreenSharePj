@@ -67,9 +67,9 @@ public class CombinValue {
 
 
     /**
-     * 字节数组转16进制
-     * @param bytes 需要转换的byte数组
-     * @return  转换后的Hex字符串
+     * 바이트 배열을 16진수로 변환
+     * @param bytes 변환할 바이트 배열
+     * @return  변환된 16진수 문자열
      */
     public static String bytesToHex(byte[] bytes,String splie) {
         StringBuffer sb = new StringBuffer();
@@ -88,18 +88,18 @@ public class CombinValue {
     }
 
     /**
-     * Hex字符串转byte
-     * @param inHex 待转换的Hex字符串
-     * @return  转换后的byte
+     * 16진수 문자열을 바이트로
+     * @param inHex 변환할 16진수 문자열
+     * @return 변환된 바이트
      */
     public static byte hexToByte(String inHex){
         return (byte)Integer.parseInt(inHex,16);
     }
 
     /**
-     * hex字符串转byte数组
-     * @param inHex 待转换的Hex字符串
-     * @return  转换后的byte数组结果
+     * 16진수 문자열을 바이트 배열로
+     * @param inHex 변환할 16진수 문자열
+     * @return  변환된 바이트 배열 결과
      */
     public static byte[] hexToByteArray(String inHex){
         int hexlen = inHex.length();

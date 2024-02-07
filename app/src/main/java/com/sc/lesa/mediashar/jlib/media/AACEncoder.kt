@@ -7,13 +7,13 @@ import android.util.Log
 
 /**
  *
- * @param ChannelCount 声道数
- * [AacFormat.ChannleOutOne] 或 [AacFormat.ChannleOutTwo]
+ * @param ChannelCount 채널 수
+ * [AacFormat.CannleOutOne] 또는 [AacFormat.CannleOutTwo]
  *
- * @param ByteRate 比特率 如 384000 256000 128000
- * 支持的范围 从[AacFormat.ByteRate64Kbs] 到 [AacFormat.ByteRate384Kbs]
+ * @param ByteRate 384000 256000 128000과 같은 비트 전송률
+ * 지원되는 범위는 [AacFormat.ByteRate64Kbs]부터 [AacFormat.ByteRate384Kbs]까지입니다.
  *
- * @param SampleRate 采样频率
+ * @param SampleRate 샘플링 주파수
  * [AacFormat.SampleRate44100] [AacFormat.SampleRate48000]
  */
 class AACEncoder(val ChannelCount: Int,val ByteRate: Int, val SampleRate: Int) {
@@ -39,7 +39,7 @@ class AACEncoder(val ChannelCount: Int,val ByteRate: Int, val SampleRate: Int) {
 
 
     /**
-     * @throws Exception 初始化编码器失败
+     * @throws Exception 인코더를 초기화하지 못했습니다.
      */
     fun init() {
         NOW_TIME = System.currentTimeMillis()
@@ -72,7 +72,7 @@ class AACEncoder(val ChannelCount: Int,val ByteRate: Int, val SampleRate: Int) {
         var outputBufferIndex = mEncoder.dequeueOutputBuffer(mBufferInfo, 0)
         while (outputBufferIndex >= 0) {
             val outputBuffer = mEncoder.getOutputBuffer(outputBufferIndex)!!
-            //给adts头字段空出7的字节
+            //adts 헤더 필드에 7바이트를 비워 두세요.
             val length = mBufferInfo.size + 7
 
             if (mFrameByte == null ) {

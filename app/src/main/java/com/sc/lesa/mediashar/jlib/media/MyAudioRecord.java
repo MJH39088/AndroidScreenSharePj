@@ -15,24 +15,24 @@ public class MyAudioRecord extends Thread {
     private int mChannelMode = AudioFormat.CHANNEL_CONFIGURATION_MONO;
     private int mSampleRate = 44100;
     private int mAudioSource=AudioFormat.ENCODING_PCM_16BIT;
-    private final int mFrameSize = 2048;//帧buffer 大小
+    private final int mFrameSize = 2048;//프레임 버퍼 크기
 
     private boolean mExit = false;
     private OnDataInput mOnDataInput;
 
     /**
      *
-     * @param audioSource 音频源
-     * 详细音频源类型请查看{@link MediaRecorder.AudioSource}
+     * @param audioSource 오디오 소스
+     * 자세한 오디오 소스 유형은 {@link MediaRecorder.AudioSource}를 참조하세요.
      *
-     * @param sampleRateInHz 采样频率 默认44100
+     * @param sampleRateInHz 샘플링 주파수 기본값 44100
      * {@link AacFormat#SampleRate44100} {@link AacFormat#SampleRate48000}
      *
-     * @param channelConfig 声道采集配置
+     * @param channelConfig 채널 획득 구성
      * See {@link AudioFormat#CHANNEL_IN_MONO} and{@link AudioFormat#CHANNEL_IN_STEREO}.
      * {@link AudioFormat#CHANNEL_IN_MONO} is guaranteed to work on all devices.
      *
-     * @param audioFormat 采集格式
+     * @param audioFormat 컬렉션 형식
      * See {@link AudioFormat#ENCODING_PCM_8BIT}, {@link AudioFormat#ENCODING_PCM_16BIT},
      * and {@link AudioFormat#ENCODING_PCM_FLOAT}.
      */

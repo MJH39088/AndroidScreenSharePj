@@ -8,24 +8,24 @@ import android.util.Log;
 public class MyAudioTrack {
 
 
-    private int mFrequency;// 采样率
-    private int mChannel;// 声道
-    private int mSampBit;// 采样精度
+    private int mFrequency;// 샘플링 속도
+    private int mChannel;// 성대
+    private int mSampBit;// 샘플링 정확도
     private AudioTrack mAudioTrack;
     private int mStreamType;
 
     /**
      *
-     * @param frequency 采样频率
+     * @param frequency 샘플링 주파수
      * {@link AacFormat#SampleRate44100} {@link AacFormat#SampleRate48000}
      *
-     * @param channel 声道
+     * @param channel 채널
      * See {@link AudioFormat#CHANNEL_OUT_MONO} and {@link AudioFormat#CHANNEL_OUT_STEREO}
      *
-     * @param sampbit 采样精度
+     * @param sampbit 샘플링 정확도
      * See {@link AudioFormat#ENCODING_PCM_16BIT},{@link AudioFormat#ENCODING_PCM_8BIT}
      *
-     * @param streamType 系统音频类型
+     * @param streamType 시스템 오디오 유형
      *{@link AudioManager#STREAM_VOICE_CALL}, {@link AudioManager#STREAM_SYSTEM},
      *{@link AudioManager#STREAM_RING}, {@link AudioManager#STREAM_MUSIC},
      *{@link AudioManager#STREAM_ALARM}, and {@link AudioManager#STREAM_NOTIFICATION}.
@@ -38,13 +38,13 @@ public class MyAudioTrack {
     }
 
     /**
-     * 初始化
+     * 초기화
      */
     public void init() {
         if (mAudioTrack != null) {
             release();
         }
-        // 获得构建对象的最小缓冲区大小
+        // 빌드된 객체의 최소 버퍼 크기를 가져옵니다.
         int minBufSize = getMinBufferSize();
         mAudioTrack = new AudioTrack(mStreamType,
                 mFrequency, mChannel, mSampBit, minBufSize, AudioTrack.MODE_STREAM);
@@ -52,7 +52,7 @@ public class MyAudioTrack {
     }
 
     /**
-     * 释放资源
+     * 리소스 해제
      */
     public void release() {
         if (mAudioTrack != null) {
@@ -62,11 +62,11 @@ public class MyAudioTrack {
     }
 
     /**
-     * 将解码后的pcm数据写入audioTrack播放
+     * 재생을 위해 디코딩된 pcm 데이터를 audioTrack에 기록합니다.
      *
-     * @param data   数据
-     * @param offset 偏移
-     * @param length 需要播放的长度
+     * @param data   데이터
+     * @param offset 오프셋
+     * @param length 재생할 길이
      */
     public void playAudioTrack(byte[] data, int offset, int length) {
         if (data == null || data.length == 0) {

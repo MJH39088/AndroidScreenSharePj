@@ -11,8 +11,8 @@ import com.sc.lesa.mediashar.jlib.server.SocketServerThread
 
 /**
  *
- * @param s 发送线程
- * @param ChannelMode [AudioFormat.CHANNEL_IN_MONO] 或 [AudioFormat.CHANNEL_IN_STEREO]
+ * @param s 스레드 보내기
+ * @param ChannelMode [AudioFormat.CHANNEL_IN_MONO] 또는 [AudioFormat.CHANNEL_IN_STEREO]
  * @param EncodeFormat [AudioFormat.ENCODING_PCM_16BIT]
  * @param ChannelCount [AacFormat.ChannleOutOne]
  * @param ByteRate [AacFormat.ByteRate256Kbs]
@@ -37,12 +37,12 @@ class VoiceSender(var socketServer: SocketServerThread,
     }
 
     fun exit() {
-        Log.d(TAG, "退出中")
+        Log.d(TAG, "종료중")
         myAudioRecord.release()
     }
 
     override fun onClose() {
-        Log.d(TAG, "退出完成")
+        Log.d(TAG, "종료 완료")
     }
 
     override fun inputData(bytes: ByteArray, offset: Int, len: Int) {

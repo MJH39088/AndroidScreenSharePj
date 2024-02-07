@@ -10,93 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5625116-00fa-4bb0-82b6-606a42bcf1d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/OneFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/PageAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/SettingActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/ThreeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/TutorialActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/TwoFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cast_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/exit_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gmail_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/guide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/guide_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/left_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/review.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/review_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ripple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/server.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/server_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/share_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/stop_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/user_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/variable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/variable_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wheel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wheel_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wifi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wifi_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wifiip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wifiip_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/wowow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_one.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_three.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_two.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/setting_activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/tutorial_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/client_gif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/help_gif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/server_gif.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_fastjson_1_2_62_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sc/lesa/mediashar/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sc/lesa/mediashar/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/sc/lesa/mediashar/TestSocketServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/sc/lesa/mediashar/TestSocketServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/MediaProjectionActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/MediaProjectionActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/MediaReaderService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/MediaReaderService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/SettingParam.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/SettingParam.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/WatchContect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/WatchContect.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/config/Config.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/config/Config.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/io/ByteObjectOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/io/ByteObjectOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/Decoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/Decoder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/AACDecoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/AACDecoder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/AACEncoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/AACEncoder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/AacAdstUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/AacAdstUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/Encoder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/Encoder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/MediaReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/MediaReader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/server/SocketClientThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/server/SocketClientThread.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/MyAudioRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/MyAudioRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/MyAudioTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/media/MyAudioTrack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/server/SocketServerThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/server/SocketServerThread.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/threads/VideoPlayThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/threads/VideoPlayThread.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/threads/VideoSender.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/threads/VideoSender.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/threads/VoicePlayThread.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sc/lesa/mediashar/jlib/threads/VoicePlayThread.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg_a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg_a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg_b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_bg_b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/editsharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/editsharp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/editsharp1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/editsharp1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_param.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_param.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_watch_contect.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_watch_contect.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialo_inputadreass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialo_inputadreass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/first_activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/first_activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/strat_server_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/strat_server_activity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +103,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "android-custom-viewC:/Users/idry1/AppData/Local/Android/Sdk/sources/android-33/android/view/View.java_SELECTED": "View",
     "android-custom-viewC:/Users/pc1/AppData/Local/Android/Sdk/sources/android-33/android/view/SurfaceView.java_SELECTED": "SurfaceView",
     "android-custom-viewC:/aaaaaaa/AndroidScreenShare2/app/src/main/java/com/sc/lesa/mediashar/view/MyLineLayout.java_SELECTED": "MyLineLayout",

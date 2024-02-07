@@ -9,12 +9,12 @@ import com.sc.lesa.mediashar.jlib.server.SocketServerThread
 
 /**
  *
- * @param st 发送线程
+ * @param st 전송 스레드
  * @param mp  MediaProjection
- * @param width 视频宽度 1080
- * @param height 视频高度 1920
- * @param videoBitrate 视频 比特率  16777216
- * @param videoFrameRate 视频 帧率 24
+ * @param width 비디오 너비 1080
+ * @param height 비디오 높이 1920
+ * @param videoBitrate 비디오 비트레이트 16777216
+ * @param videoFrameRate 비디오 프레임 속도 24
  */
 class VideoSender(var socketServerThread: SocketServerThread, mp: MediaProjection,
                   var width: Int, var height: Int,

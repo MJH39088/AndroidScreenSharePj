@@ -6,9 +6,6 @@ import android.media.MediaFormat
 import android.util.Log
 import android.view.Surface
 
-/**
- * Created by Lesa on 2018/12/03.
- */
 open class Encoder(private val videoW: Int, private val videoH: Int, private val videoBitrate: Int,
                    private val videoFrameRate: Int, private var encoderListener: EncoderListener?)
     : Thread(TAG) {
@@ -47,7 +44,7 @@ open class Encoder(private val videoW: Int, private val videoH: Int, private val
     }
 
     /**
-     * 获取h264数据 h264 데이터 가져오기
+     * h264 데이터 가져오기
      */
     override fun run() {
         try {

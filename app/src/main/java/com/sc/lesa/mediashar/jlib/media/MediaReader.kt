@@ -6,9 +6,6 @@ import android.media.projection.MediaProjection
 import android.util.Log
 import android.view.Surface
 
-/**
- * Created by Lesa on 2018/12/03.
- */
 class MediaReader(
         protected var mWidth: Int,
         protected var mHeight: Int, protected var videoBitrate: Int, protected var videoFrameRate: Int,

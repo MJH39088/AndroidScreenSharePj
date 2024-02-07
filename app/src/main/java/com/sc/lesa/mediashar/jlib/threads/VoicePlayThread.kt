@@ -57,11 +57,11 @@ class VoicePlayThread(var inputdata: DataPackList) : Thread(TAG), OnDecodeDone {
     private fun dirtory() {
         aacDecoder.stop()
         myAudioTrack.release()
-        Log.i(TAG, "退出成功")
+        Log.i(TAG, "성공적으로 종료됨")
     }
 
     fun exit() {
-        Log.i(TAG, "开始退出")
+        Log.i(TAG, "종료 시작")
         exit = true
     }
 

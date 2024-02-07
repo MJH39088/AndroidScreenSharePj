@@ -16,40 +16,40 @@ public class AacAdstUtil {
     public static final int SAMPLING_RATE_48KHZ = 0x3;
 
     /**
-     * 给编码出的aac裸流添加adts头字段
-     * @param packet 原始数据流
+     * 인코딩된 aac 네이키드 스트림에 adts 헤더 필드 추가
+     * @param packet 원본 데이터 스트림
      *
-     * @param ID MPEG 标示符。0表示MPEG-4，1表示MPEG-2
-     * 如 {@link AacAdstUtil#TYPE_MEPG_4} 和 {@link AacAdstUtil#TYPE_MEPG_2}
+     * @param ID MPEG 식별자. 0은 MPEG-4, 1은 MPEG-2를 의미합니다.
+     * 예: {@link AacAdstUtil#TYPE_MEPG_4} 및 {@link AacAdstUtil#TYPE_MEPG_2}
      *
-     * @param protection_absent 标识是否进行误码校验。0表示有CRC校验，1表示没有CRC校验
-     * {@link AacAdstUtil#UNUSE_CRC} 和 {@link AacAdstUtil#USE_CRC}
+     * @param protection_absent 는 오류 검사 수행 여부를 식별합니다. 0은 CRC 검사가 있음을 의미하고, 1은 CRC 검사가 없음을 의미합니다.
+     * {@link AacAdstUtil#UNUSE_CRC} 및 {@link AacAdstUtil#USE_CRC}
      *
-     * @param profile 标识使用哪个级别的AAC。1: AAC Main 2:AAC LC (Low Complexity) 3:AAC SSR (Scalable Sample Rate) 4:AAC LTP (Long Term Prediction)
+     * @param profile 은 사용할 AAC 수준을 식별합니다. 1: AAC 메인 2:AAC LC(낮은 복잡도) 3:AAC SSR(확장 가능한 샘플링 속도) 4:AAC LTP(장기 예측)
      * {@link AacAdstUtil#AAC_LC}
      *
-     * @param sampling_frequency_index 标识使用的采样率的下标
+     * @param sampling_frequency_index 사용된 샘플링 속도를 식별하는 인덱스
      * {@link AacAdstUtil#SAMPLING_RATE_44_1KHZ}
      *
-     * @param channel_configuration 标识声道数
-     * @param packetLen ADTS帧长度包括ADTS长度和AAC声音数据长度的和
+     * @param channel_configuration 은 채널 수를 식별합니다.
+     * @param packetLen ADTS 프레임 길이에는 ADTS 길이와 AAC 사운드 데이터 길이의 합이 포함됩니다.
      */
     public static void addADTStoPacketType(byte[] packet,boolean ID,boolean protection_absent,
                                            int profile,int sampling_frequency_index,
                                            int channel_configuration,int packetLen
     ) {
 
-        byte b1 = (byte) 0xFF;//同步头 总是0xFFF, all bits must be 1，代表着一个ADTS帧的开始
+        byte b1 = (byte) 0xFF;//동기화 헤더는 항상 0xFFF이고 모든 비트는 1이어야 하며 이는 ADTS 프레임의 시작을 나타냅니다.
 
         byte b2 = (byte) 0b11110000;
-        if (ID){//MPEG标识符，0标识MPEG-4，1标识MPEG-2
+        if (ID){//MPEG 식별자, 0은 MPEG-4를 식별하고 1은 MPEG-2를 식별합니다.
             b2=(byte)(b2|(byte) 0b00001000);
         }else {
             b2=(byte)(b2|(byte) 0b00000000);
         }
         b2 |= (byte)0b00000000;//Layer always: '00'
 
-        if (protection_absent){//表示是否误码校验。Warning, set to 1 if there is no CRC and 0 if there is CRC
+        if (protection_absent){//오류를 확인할지 여부를 나타냅니다. 경고, CRC가 없으면 1로 설정하고 CRC가 있으면 0으로 설정합니다.
             b2 |= (byte)0b00000001;
         }else {
             b2 |= (byte)0b00000000;

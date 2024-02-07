@@ -44,7 +44,7 @@ abstract class SocketServerThread(var port: Int) : Thread(TAG) {
             serverSocket.soTimeout=3000
         }catch (t:Throwable){
             t.printStackTrace()
-            //处理返回
+            //반환 처리
             onError(t)
             return
         }
@@ -109,7 +109,7 @@ abstract class SocketServerThread(var port: Int) : Thread(TAG) {
     }
 
     fun exit() {
-        Log.d("!@", "退出中")
+        Log.d("!@", "종료중")
         exit = true
         interrupt()
     }
